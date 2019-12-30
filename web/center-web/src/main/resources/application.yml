@@ -1,0 +1,17 @@
+server:
+  port: 9091
+
+#zookeeper注册中心配置
+dubbo:
+  application:
+    name: center-web
+  registry:
+    protocol: zookeeper
+    address: 123.207.253.16:2181
+
+spring:
+  thymeleaf:
+    cache: false
+  devtools:
+    restart:
+      enabled: true

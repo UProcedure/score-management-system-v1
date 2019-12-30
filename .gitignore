@@ -1,0 +1,5 @@
+# Project exclude paths
+/api/user-api/target/
+/basic/commons/target/
+/basic/entity/target/
+/basic/mapper/target/
